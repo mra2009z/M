@@ -1,0 +1,16 @@
+flowchart TD
+  A[Inicio] --> B[Preparar ingredientes y equipos]
+  B --> C[Enfriar carne y grasa]
+  C --> D[Remojar tripas]
+  D --> E[Moler carne (1–2 pasadas)]
+  E --> F[Mezclar carne + especias + agua]
+  F --> G[Probar sazón]
+  G --> H[Embutir en tripas]
+  H --> I[Formar/Atar enlaces]
+  I --> J[Reposar en frío (4–12 h)]
+  J --> K{¿Cocinar ahora?}
+  K -->|Sí| L[Cocer/asar hasta 71°C interno]
+  K -->|No| M[Refrigerar o congelar]
+  L --> N[Enfriar y almacenar]
+  M --> N
+  N --> O[Fin]
